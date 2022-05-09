@@ -2,7 +2,7 @@
 
 The benefits of this solution are that we have a control over the decorator and we can pass some custom `*args, **kwargs` to the decorated functions.
 
-## To Register a function
+## To Register an action
 
 - New python file in `actions/` folder
 - Create function with an appropriate name (ex. `action_onclick`)

@@ -2,7 +2,9 @@
 
 Loading the `__subclasses__` of the `BaseAction` class and creating a 'pluggable' classes. The actions can be specified in the `configuration.py` file in the `ACTIONS` const. This method is inspired by django's `INSTALLED_APPS` method. 
 
-## To Register a function
+The `call` method is a placeholder for the "actions".
+
+## To Register an action
 
 - New python file in `actions/` folder
 - Create a class with an appropriate name (ex. `ClickAction`)
